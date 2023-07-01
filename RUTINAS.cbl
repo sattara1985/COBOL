@@ -24,7 +24,5 @@
        RUTINA04.
            DISPLAY"ESTA ES LA RUTINA 4"
            DISPLAY"FINALIZA EL PROGRAMA"
-
-
             STOP RUN.
        END PROGRAM RUTINAS-COBOL.

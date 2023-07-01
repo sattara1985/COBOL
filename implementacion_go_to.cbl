@@ -36,11 +36,11 @@
                DISPLAY "EJECUTAR PROGRAMA? (S / N )"
                ACCEPT SI-O-NO
                DISPLAY "INGRESO: "SI-O-NO
-               PERFORM CONTINUACION.
+
 
            PROGRAMA.
                DISPLAY "SE EJECUTA EL PROGRAMA.ghgfhg".
-               PERFORM CONTINUACION.
+
 
 
 

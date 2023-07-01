@@ -20,7 +20,7 @@
            PERFORM CONTINUACION.
 
            IF SI-O-NO = "N" OR SI-O-NO ="n"
-               PERFORM FINALIZA-PROGRAMA.
+               GO TO  FINALIZA-PROGRAMA.
            IF SI-O-NO ="S" OR SI-O-NO ="s"
                PERFORM PROGRAMA
            ELSE
@@ -32,13 +32,13 @@
                STOP RUN.
 
            CONTINUACION.
-               DISPLAY "EJECUTAR PROGRAMA? (S/N)".
+               DISPLAY "EJECUTAR PROGRAMA? (S / N )".
                ACCEPT SI-O-NO.
+               DISPLAY "INGRESO: "SI-O-NO.
 
            PROGRAMA.
-               DISPLAY "SE EJECUTA EL PROGRAMA.".
+               DISPLAY "SE EJECUTA EL PROGRAMA.ghgfhg".
                PERFORM CONTINUACION.
-
 
 
 

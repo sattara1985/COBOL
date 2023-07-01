@@ -46,7 +46,7 @@
                COMPUTE RESULTADO = NUMERO*MULTIPLICADOR.
                DISPLAY NUMERO " * " MULTIPLICADOR " = " RESULTADO.
              IF MULTIPLICADOR < 10
-                 GO TO CALCULOS.
+               GO TO CALCULOS.
            PERFORM INICIO.
 
 
